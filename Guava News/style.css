@@ -1,0 +1,188 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+    }
+body{
+    background: #142F29;
+    }
+#main_home{
+    background-image: url(./Fotos/guava_news.png);
+    background-size: cover;
+    }
+    
+#container_home{
+    display: grid;
+    grid-template-rows: 8vh 82vh 10vh;
+    }
+    
+#footer_home{
+    display: inline;
+    text-align: center;
+    text-decoration: none;
+    color: rgba(0,0,0, 0.5);
+    font-weight: 500;
+    font-size: 12px;
+    padding: 4px;
+    margin: 0 auto;
+    margin-top: 1%;
+    }
+    
+#header_home{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    }
+    
+#header_home button{
+    margin-top: 8px;
+    padding: 11px 15px;
+    color: #fff;
+    border-radius: 15px;
+    border: none;
+    background-color: #142F29;
+    font-size: 11pt;
+    font-weight: bold;
+    }
+.content{
+    background-color: #142F29;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    }
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    }
+.left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 2 0 auto;
+    background-image: url(./Fotos/esquerda.png);
+    background-size: cover;
+    background-position: right center;
+    height: 100%;
+    color: #fff;
+    }
+.left p{
+    max-width: 500px;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 5px;
+    margin-top: 25px;
+    line-height: 30px;
+}
+.right{
+    padding-left: 15%;
+    margin-top: 15%;
+    height: 100%;
+    flex: 1 0 auto;
+    }
+.right form{
+    background-color: #fff;
+    width: 400px;
+    height: 400px;
+    display: grid;
+    grid-gap: 5px;
+    padding: 5%;
+    border-radius: 10px;
+}
+.right form input{
+    height: 50px;
+    padding-left: 10px;
+    margin-bottom: -20px;
+    border-right: 15px;
+    border: none;
+    background-color: lightgray;
+    border-radius: 8px;
+}
+.right form h2{
+    text-align: center;
+    font-size: 40px;
+}
+.botao{
+    height: 55px;
+    margin-top: 20px;
+    border-radius: 15px;
+    border: none;
+    background-color: #378B23;
+    color: #fff;
+    font-weight: bold;
+    font-size: 12pt;
+}
+#erro, #veriflog{
+    background: #142F29;
+}
+#erro div{
+	margin-top: 10%;
+	width: 100%;
+	margin-left: -0.2%;
+	background: white;
+	padding: 100px 5px 10px 5px;
+    height: 400px;
+}
+#erro h1{
+	color: red;
+	font-size: 95px;
+    text-align: center;
+}
+#erro p{
+	color: red;
+	font-size: 30px;
+    text-align: center;
+}
+#veriflog div{
+	background: white;
+	margin-top: 15%;
+	width: 100%;
+	padding: 3%;
+    color: black;
+    height: 250px;;
+}
+#veriflog a{
+	text-decoration: none;
+	color: black;
+	font-size: 25px;
+    text-align: center;
+    padding-left: 16%;
+}
+#veriflog h1{
+	font-size: 60px;
+	margin-top: 2%;
+    text-align: center;
+}
+
+#veriflog a:active{
+	color:red;
+}
+#teto{
+	background-color: white;
+	width: 100.95%;
+	height: 15%;
+	padding-top: 0.2%;
+	margin: -0.5%;
+	margin-bottom: 4%;
+
+}
+#teto h1{
+	text-align: center;
+	font-size: 50px;
+
+}
+#container_cad{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	justify-content: space-around;
+	margin-left: 25%;
+	font-weight: bold;
+	color: white;
+	font-size: 15pt;
+}
